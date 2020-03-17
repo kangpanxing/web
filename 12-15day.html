@@ -1,0 +1,450 @@
+﻿
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+    <title>漂亮网站</title>
+    <style type="text/css">
+        * {
+            margin:0;
+            padding:0;
+        }
+        .hander {
+            width:1200px;
+            position: relative;
+            top: 0px;
+            margin-left: 300px;
+        }
+        .imgjordan {
+         
+            height: 100px;
+            position: absolute;
+            right: 0;
+        }
+        .img_16 {
+            position:absolute;
+            width: auto;
+            height: 80%;
+            right:250px;
+            margin:10px 10px;
+
+        }
+        .hander_p {
+            position:absolute;
+            right:110px;
+            padding:20px 0;
+        }
+        .hander_p1 {
+            color: #55B0F4;
+        }
+        .hander_p2 {
+            color: #BEBEBE;
+        }
+        .hander_pv {
+            position:absolute;
+            right:30px;
+            padding:30px 0;
+            color: #BEBEBE;
+            font-size: x-large;
+        }
+        .left { 
+            margin:0;
+            position:relative;
+            width:300px;
+            height:auto;
+            background:#249af2;
+        }
+        .left_1{
+            margin:0;
+            float:left;
+            position:relative;
+            width:80px;
+            height:955px;
+            background-color: #1D2531;
+        }
+        .left_1img {
+            width:60%;
+            margin-top:40px;
+            padding:0px 10px;
+        }
+        #left_1img {
+            position:absolute;
+            bottom:20px;
+            width:100%;
+        }
+        .left_2{
+            float:right;
+            position:absolute;
+            width:230px;
+            height:955px;
+            background-color: #222c3c;
+            right: 0px;
+        }
+        .left_table {
+            margin:10px ;
+            width:80%;
+        }
+        .auto-style2 {
+            color: #A6AFBC;
+            padding:5px 10px;
+            font-size:10px;
+        }
+        .auto-style3 {
+            color: #455162;
+            padding:10px;
+            font-size:10px;
+        }
+        #left_1img2 {
+            position: absolute;
+            bottom: 20px;
+            width: 300px;
+        }
+        .left_table54{
+            float:right;
+            width:30px;
+            background:#249af2;
+            border-top-right-radius:20px;
+            border-top-left-radius:20px;
+            border-bottom-right-radius:20px;
+            border-bottom-left-radius:20px;
+            color:#ffffff;
+            text-align:center;
+        }
+        .left_table3{
+            float:right;
+            width:22px;
+            background:#e7452a;
+            border-radius:50%;
+            color:#ffffff;
+            text-align:center;
+        }
+        .left_tablesz{float:right;}
+        .content{
+            position:absolute;
+            left:300px;
+            top:100px;
+            right:0px;
+            width:auto;
+            height:auto;
+            background:#ffffff;
+        }
+        .messages{
+            position:absolute;
+            top:-70px;
+            left:50px;
+            font-size:30px;
+            color:#354052;
+        }
+        .content_left{
+            padding:10px 0;
+            width:400px;
+            border-right:1px solid #BEBEBE;
+        }
+        .content_table {
+            width: 100%;
+            float: left;
+            padding:10px 20px;
+            border-top:1px solid #BEBEBE;
+        }
+        .content_table_tr1_td2 {
+            color: #00AAFF;
+        }
+        .content_table_right {
+            color: #666666;
+        }
+        .content_table_bottom {
+            font-size: small;
+        }
+        .auto-style4 img{
+            width:30px;
+        }
+        .auto-style4 {
+            color: #00AAFF;
+            height: 24px;
+        }
+        .auto-style5 {
+            float:right;
+            color: #666666;
+            height: 24px;
+        }
+        .content_right{
+            position:absolute;
+            top:0;
+            right:0px;
+            left:400px;
+            width:800px;
+
+        }
+        .auto-style6 {
+            color: #6C707A;
+            padding:30px 0 26px 20px;
+        }
+        .content_right_table {
+            width: 100%;
+            border-top:1px solid #BEBEBE;
+            padding:20px 0 20px 20px;
+        }
+        .content_table_img{
+            border-radius:5px;
+        }
+    </style>
+</head>
+	
+	
+	
+<body>
+    <div class="hander">
+        <div class="imgjordan">
+            <img class="img_16" src="image/12_15/头像/头像_16.png" />
+        </div>
+        <div class="hander_p">
+            <p class="hander_p1"><strong>Jordan J.</strong></p>
+            <p class="hander_p2"><strong>Administrator</strong></p>
+        </div>
+        <div class="hander_pv">ｖ</div>
+    </div> 
+    <div class="left">
+        <div class="left_1">
+            <img class="left_1img" src="image/12_15/4/左上4_03.png" />
+            <img class="left_1img" src="image/12_15/4/左上4_06.png" />
+            <img class="left_1img" src="image/12_15/4/左上4_08.png" />
+            <img class="left_1img" src="image/12_15/4/左上4_10.png" />
+            <div id="left_1img"><img class="left_1img" src="image/12_15/left_bottom.JPG"/></div>
+        </div>
+        <div class="left_2">
+            <table class="left_table">
+                <tr><td class="auto-style3">MENU</td><td class="left_tablesz">设置</td></tr>
+                <tr><td class="auto-style2">Overview</td></tr>
+                <tr><td class="auto-style2">sales</td><td><div class="left_table54">54</div></td></tr>
+                <tr><td class="auto-style2">Your Staff</td></tr>
+                <tr><td class="auto-style2">Analytics & Targeting</td></tr>
+                <tr><td class="auto-style2">What's New</td></tr>
+            </table>
+            <hr style="border-color: #A6AFBC; height: 1px; width: 80%; margin:0 20px;" />
+                        <table class="left_table">
+                <tr><td class="auto-style3">YOUR PRODUCTS</td><td class="left_tablesz">设置</td></tr>
+                <tr><td class="auto-style2">Books</td></tr>
+                <tr><td class="auto-style2">Tutorials</td></tr>
+                <tr><td class="auto-style2">Stocks</td></tr>
+                <tr><td class="auto-style2">Infographics</td></tr>
+            </table>
+            <hr style="border-color: #A6AFBC; height: 1px; width: 80%; margin:0 20px;" />
+            <table class="left_table">
+                <tr><td class="auto-style3">DASHBOARD</td><td class="left_tablesz">设置</td></tr>
+                <tr><td class="auto-style2">Messages</td><td><div class="left_table54">21</div></td></tr>
+                <tr><td class="auto-style2">Connerctions</td></tr>
+                <tr><td class="auto-style2">Integrations</td><td><div class="left_table3"><b>!</b></div></td></tr>
+                <tr><td class="auto-style2">Account Settings</td></tr>
+                <tr><td class="auto-style2">App Settings</td></tr>
+            </table>
+            <div id="left_1img2"><img src="image/12_15/left_bottom2.JPG" style="width: 200px"/></div>
+        </div>
+    </div>
+    <div class="content">
+        <hr/>
+        <p class="messages">Messages</p>
+        <div class="content_left">
+            <div>
+                <input id="Text1" placeholder="Search" style="width: 250px; height: 30px;margin-left:20px;margin-bottom:10px;" type="text" />
+                <input id="Button1" style="height: 30px; width: 50px" type="button" value="搜索" />
+            </div>
+                
+            <br />
+            
+            
+            <table class="content_table">
+                    <tr>
+                        <td rowspan="2" class="content_table_img" style="width:60px">
+                            <img src="image/12_15/头像/头像_09.png" /></td>
+                        <td class="auto-style4"><strong>Bessie Berry</strong></td>
+                        <td class="auto-style5">3m</td>
+                    </tr>
+                    <tr>
+                        <td class="content_table_right">Twitter</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="content_table_bottom">I pay for the 4Mb/sec down,512Kb/sec up service from O2.In fact,it&#39;s relatively quilk,and stable...</td>
+                    </tr>
+                </table>
+            <table class="content_table">
+                    <tr>
+                        <td rowspan="2" class="content_table_img" style="width:60px">
+                            <img src="image/12_15/头像/头像_19.png" /></td>
+                        <td><strong>Victor Weber</strong></td>
+                        <td class="auto-style5">8m</td>
+                    </tr>
+                    <tr>
+                        <td class="content_table_right">Adobe</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="content_table_bottom">I shared this on my fb wall a few months back,and I thought I'd share it here again because it's such a great...</td>
+                    </tr>
+                </table>
+            <table class="content_table">
+                    <tr>
+                        <td rowspan="2" class="content_table_img" style="width:60px">
+                            <img src="image/12_15/头像/头像_24.png" /></td>
+                        <td><strong>Dustin Benson</strong></td>
+                        <td class="auto-style5">yesterday</td>
+                    </tr>
+                    <tr>
+                        <td class="content_table_right">Facebook</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="content_table_bottom">If there is anyone who needs an invitation please add yourelf in the comments of this post!</td>
+                    </tr>
+                </table>
+            <table class="content_table">
+                    <tr>
+                        <td rowspan="2" class="content_table_img" style="width:60px">
+                            <img src="image/12_15/头像/头像_26.png" /></td>
+                        <td><strong>Jack Mason</strong></td>
+                        <td class="auto-style5">yesterday</td>
+                    </tr>
+                    <tr>
+                        <td class="content_table_right">Yahoo</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="content_table_bottom">BruteDC is a peer-to-peer movie+tv serievs sharing and downloading platform works on intranet inside...</td>
+                    </tr>
+                </table>
+            <table class="content_table">
+                    <tr>
+                        <td rowspan="2" class="content_table_img" style="width:60px">
+                            <img src="image/12_15/头像/头像_28.png" /></td>
+                        <td><strong>Stephen Sheiton</strong></td>
+                        <td class="auto-style5">13Jun</td>
+                    </tr>
+                    <tr>
+                        <td class="content_table_right">Snapchat</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="content_table_bottom">Yes.p2p traffic is often filtered (QoSed).Although i do use BT on O2 wires,and in good days dl speed...</td>
+                    </tr>
+                </table>
+            <table class="content_table">
+                    <tr>
+                        <td rowspan="2" class="content_table_img" style="width:60px">
+                            <img src="image/12_15/头像/头像_30.png" /></td>
+                        <td><strong>Sally Willis</strong></td>
+                        <td class="auto-style5">12Jun</td>
+                    </tr>
+                    <tr>
+                        <td class="content_table_right">Twitter</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="content_table_bottom">Yes,it's O2 'internet extereme',which is no ionger offered.</td>
+                    </tr>
+                </table>
+            <table class="content_table">
+                    <tr>
+                        <td rowspan="2" class="content_table_img" style="width:60px">
+                            <img src="image/12_15/头像/头像_33.png" /></td>
+                        <td><strong>Robert Patton</strong></td>
+                        <td class="auto-style5">9Jun</td>
+                    </tr>
+                    <tr>
+                        <td class="content_table_right">A team</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="content_table_bottom">Yes.p2p traffic is often filtered (QoSed).Although i do use BT on O2 wires,and in good days dl speed...</td>
+                    </tr>
+                </table>
+            end
+        </div>
+        <div class="content_right">
+            <div class="auto-style6">
+                Bessie Berry<span style="color: #1BB934;">●</span>
+            </div>
+                <img style="position:absolute;right:0;top:0;padding:20px;" src="image/12_15/content_right.JPG"/>
+           
+            <table class="content_right_table">
+                    <tr>
+                        <td rowspan="2">
+                            <img src="image/12_15/头像/头像_09.png" /></td>
+                        <td ><b>Bessie Berry </b>&nbsp
+                            <span style="color: #666666;font-size:10pt;">8:31AM</span></td>
+                    </tr>
+                    <tr>
+                        <td class="content_table_bottom">Hi guys lve got the O2 package and have really slow internet.A apeed check online said i can get 3mbps but it seems more like
+                            0.5 these days.just freezing and taking ages to open pages and open audio files for example.I have decided to switch to the UPC package which sffers 10mbps but do you think i will get it?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">
+                            <img src="image/12_15/头像/头像_16.png" /></td>
+                        <td ><b>Jordan Jackson </b>&nbsp
+                            <span style="color: #666666;font-size:10pt;">8:31AM</span></td>
+                    </tr>
+                    <tr>
+                        <td class="content_table_bottom">Hi guys lve got the O2 package and have really slow internet.A apeed check online said i can get 3mbps but it seems more like
+                            0.5 these days.just freezing and taking ages to open pages and open audio files for example.I have decided to switch to the UPC package which sffers 10mbps but do you think i will get it?
+                        </td>
+                    </tr>
+                    
+            </table>
+            <table class="content_right_table">
+                    <tr>
+                        <td rowspan="2">
+                            <img src="image/12_15/头像/头像_09.png" /></td>
+                        <td ><b>Bessie Berry </b>&nbsp
+                            <span style="color: #666666;font-size:10pt;">8:31AM</span></td>
+                    </tr>
+                    <tr>
+                        <td class="content_table_bottom">Hi guys lve got the O2 package and have really slow internet.A apeed check online said i can get 3mbps but it seems more like
+                            0.5 these days.just freezing and taking ages to open pages and open audio files for example.I have decided to switch to the UPC package which sffers 10mbps but do you think i will get it?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">
+                            <img src="image/12_15/头像/头像_16.png" /></td>
+                        <td ><b>Jordan Jackson </b>&nbsp
+                            <span style="color: #666666;font-size:10pt;">8:31AM</span></td>
+                    </tr>
+                    <tr>
+                        <td class="content_table_bottom">Hi guys lve got the O2 package and have really slow internet.A apeed check online said i can get 3mbps but it seems more like
+                            0.5 these days.just freezing and taking ages to open pages and open audio files for example.I have decided to switch to the UPC package which sffers 10mbps but do you think i will get it?
+                        </td>
+                    </tr>
+                    <tr><td></td>
+                        <td><img class="content_table_img" src="image/12_15/content_rightimg.JPG" />
+                            <img class="content_table_img" src="image/12_15/content_rightimg.JPG" /></td></tr>
+            </table>
+            <table class="content_right_table">
+                    <tr>
+                        <td rowspan="2">
+                            <img src="image/12_15/头像/头像_09.png" /></td>
+                        <td ><b>Bessie Berry </b>&nbsp
+                            <span style="color: #666666;font-size:10pt;">8:31AM</span></td>
+                    </tr>
+                    <tr>
+                        <td class="content_table_bottom">Hi guys lve got the O2 package and have really slow internet.A apeed check online said i can get 3mbps but it seems more like
+                            0.5 these days.just freezing and taking ages to open pages and open audio files for example.I have decided to switch to the UPC package which sffers 10mbps but do you think i will get it?
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">
+                            <img src="image/12_15/头像/头像_16.png" /></td>
+                        <td ><b>Jordan Jackson </b>&nbsp
+                            <span style="color: #666666;font-size:10pt;">8:31AM</span></td>
+                    </tr>
+                    <tr>
+                        <td class="content_table_bottom">Hi guys lve got the O2 package and have really slow internet.A apeed check online said i can get 3mbps but it seems more like
+                            0.5 these days.just freezing and taking ages to open pages and open audio files for example.I have decided to switch to the UPC package which sffers 10mbps but do you think i will get it?
+                        </td>
+                    </tr>
+                    
+            </table>
+        </div>
+     </div>
+</body>
+</html>
